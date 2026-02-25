@@ -6,6 +6,44 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <fieldset>
+        <legend>Information</legend>
+    <form>
+        <label for="Prenom" class="title"> Prenom:</label><br />
+        <input type="text" name="Prenom" id="Prenom" /><br />
+        <label for="Nom" class="title">Nom:</label><br />
+        <input type="text" name="Nom" id="Nom" /><br />
+        <label for="email" class="title">Email:</label><br />
+        <input type="email" name="email" id="email" /> <br />
+        <label for="password" class="title">Mot de passe</label><br />
+        <input type="password" name="password" id="password" /> <br />
+        <label for="" class="title">profession</label><br>
+        <select>
+            <option disabled>...selectionner...</option>
+            <option>developpeur</option>
+            <option>big data engineer</option>
+            <option>software engineer</option>
+        </select><br>
+        <label for="" class="title">situation</label>
+        <input type="radio" name="situation" checked> Marier
+        <input type="radio" name="situation"> celibataire
+        <input type="radio" name="situation"> Divorcer<br />
+        <button type="submit">Enregistrer</button><br>
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend>competence</legend>
+        <ul type="none">
+        <li><input type="checkbox"checked> HTML </li>
+        <li><input type="checkbox"> CSS </li>
+        <li><input type="checkbox"> JAVA</li>
+        <li><input type="checkbox"> PYTHON</li>
+    </fieldset>
+    <fieldset>
+        <legend>experience</legend>
+        <input type="checkbox" checked> stage orange<br>
+        <input type="checkbox"> manager
+       
+    </fieldset>
 </body>
 </html>

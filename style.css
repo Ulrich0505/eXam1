@@ -1,0 +1,23 @@
+body{
+            background-color: aqua;
+            font-size: larger;
+        }
+        fieldset{
+            width: 500px;
+            margin: 20px;
+        }
+        .title{
+            color: rgb(92, 47, 255);
+            font-weight: bolder;
+        }
+        legend{
+            text-align: center;
+        }
+        input{
+            width: 500px;
+            cursor: pointer;
+            color: inherit;
+        }
+        option{
+            width: 500px;
+        }
